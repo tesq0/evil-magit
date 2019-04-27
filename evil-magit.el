@@ -131,7 +131,7 @@ should be a string suitable for `kbd'."
     magit-log-mode
     magit-log-select-mode
     magit-process-mode
-    magit-reflog-mode
+    ;; magit-reflog-mode
     magit-refs-mode
     magit-revision-mode
     magit-stash-mode
@@ -424,7 +424,7 @@ denotes the original magit key for this command.")
                    magit-diff-mode-map
                    magit-log-mode-map
                    magit-log-select-mode-map
-                   magit-reflog-mode-map
+                   ; magit-reflog-mode-map
                    magit-status-mode-map
                    magit-file-mode-map
                    magit-log-read-revs-map
